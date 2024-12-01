@@ -2,3 +2,6 @@
 /.idea
 /testcase/migrations/
 /judge/migrations/
+__pycache__/
+*.pyc
+*.pyo
