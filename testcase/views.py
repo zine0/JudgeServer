@@ -11,7 +11,7 @@ class SetTestcases(View):
     
     def clean(self,text:str) -> str:
         text:str = base64.b64decode(text).decode('utf-8')
-        text.replace('\r','')
+        text = text.replace('\r','')
         text_list = text.split('\n')
         clean_text=''
         for line in text_list:
